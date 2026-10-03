@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume | Mayur Nookala</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="../">Home</a></li>
+      <li><a href="../projects/">Projects</a></li>
+      <li><a href="../contact/">Contact</a></li>
+      <li><a href="./">Resume</a></li>
+      <li><a href="https://github.com/mayurkarthik2004" target="_blank">GitHub</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Mayur K Nookala</h1>
+    <p>San Diego, CA | <a href="mailto:mnookala@ucsd.edu">mnookala@ucsd.edu</a></p>
+  </header>
+
+  <section>
+    <h2>Education</h2>
+
+    <article>
+      <header>
+        <h3>University of California, San Diego</h3>
+        <p>Bachelor of Science, Data Science | San Diego, CA</p>
+        <p>Expected graduation: <time datetime="2027-06">June 2027</time></p>
+      </header>
+      <p><strong>Relevant Coursework:</strong></p>
+      <ul>
+        <li>Data Structures &amp; Algorithms</li>
+        <li>Probability &amp; Statistics for Data Science</li>
+        <li>Regression Analysis</li>
+        <li>Probabilistic Modeling and Machine Learning</li>
+        <li>Systems for Scalable Analytics</li>
+        <li>Data Science in Practice</li>
+        <li>Introduction to Data Mining</li>
+      </ul>
+    </article>
+
+    <article>
+      <header>
+        <h3>University of California, Santa Cruz</h3>
+        <p>Bachelor of Science, Technology and Information Management | Santa Cruz, CA</p>
+        <p><time datetime="2023">2023</time> – <time datetime="2025">2025</time></p>
+      </header>
+      <p><strong>Extracurriculars:</strong> Student-Athlete, NCAA Division III Men's Tennis, Team Captain</p>
+    </article>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python (Pandas, NumPy, scikit-learn, Matplotlib, Seaborn, statsmodels), SQL, R</li>
+      <li><strong>Data &amp; ML:</strong> Data pipelines / ETL, data cleaning &amp; wrangling, EDA, statistical modeling, regression, hypothesis testing, A/B testing, machine learning, NLP / sentiment analysis</li>
+      <li><strong>Visualization &amp; BI:</strong> Tableau, Power BI, dashboarding, data storytelling, Google Analytics, Meta Ads Manager</li>
+      <li><strong>Tools &amp; Platforms:</strong> Git, Jupyter, Google Colab, VS Code, Excel, Spark, AWS, Copilot AI, Claude and OpenAI APIs</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+
+    <article>
+      <header>
+        <h3>Revinci AI</h3>
+        <p>AI Data Analyst Intern</p>
+        <p><time datetime="2026-06">June 2026</time> – <time datetime="2026-09">September 2026</time></p>
+      </header>
+      <ul>
+        <li>Exposed the top compute-cost drivers across AI agents by building a Python (Pandas, NumPy) data pipeline that parsed 100,000+ LLM usage events (tokens, model calls, API spend) into a unified cost dataset</li>
+        <li>Enabled real-time per-agent profitability tracking by joining token-level usage logs to pricing tables in SQL and modeling a cost-to-serve (COGS) metric, cutting the finance team's manual reconciliation work</li>
+        <li>Caught margin leakage before it reached recognized revenue by developing a Python anomaly-detection routine over agent-level transactions that surfaced mispriced events for review</li>
+        <li>Informed pricing-guardrail thresholds by running exploratory analysis comparing usage-based vs. outcome-based pricing models across customer cohorts, then translating findings into recommendations for the product team</li>
+      </ul>
+    </article>
+
+    <article>
+      <header>
+        <h3>Beats by Dre</h3>
+        <p>Data Analyst Extern</p>
+        <p><time datetime="2025-07">July 2025</time> – <time datetime="2025-09">September 2025</time></p>
+      </header>
+      <ul>
+        <li>Produced an analysis-ready dataset from 1,000+ Amazon product reviews by scraping, cleaning, and handling missing values and outliers in Pandas and NumPy</li>
+        <li>Isolated key drivers of customer satisfaction across 10 competing audio products by running exploratory analysis on rating distributions, review length, helpful votes, and price correlations</li>
+        <li>Surfaced recurring product issues (sound, charging, durability, connectivity) flagged in 40%+ of negative reviews by building a TextBlob / NLP sentiment pipeline that classified review polarity</li>
+        <li>Drove product and marketing recommendations by benchmarking Beats Studio Buds against Apple, Samsung, and Sony on the satisfaction drivers identified</li>
+      </ul>
+    </article>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+
+    <article>
+      <header>
+        <h3>Shopify E-Commerce Store</h3>
+        <p>E-Commerce Analytics Project</p>
+        <p><time datetime="2026-07">July 2026</time> – Present</p>
+      </header>
+      <ul>
+        <li>Reduced product-selection risk across 7 launches, as measured by sell-through on chosen SKUs, by building a research workflow in Kalodata, Google Trends, and Meta Ad Library that scored competitor sales velocity, pricing spread, and audience overlap to forecast demand before committing inventory spend</li>
+        <li>Lifted conversion rate 18% and ROAS, as measured against a holdout control, by running structured A/B tests on creatives, offers, and price points with Claude-iterated ad copy, then tracking add-to-cart to purchase drop-off in Shopify and Meta Pixel to shift budget toward the highest-converting segments</li>
+      </ul>
+    </article>
+
+    <article>
+      <header>
+        <h3>U.S. Minimum Wage vs. Cost of Living Data Analysis (2000–2024)</h3>
+        <p>Data Analysis Project</p>
+        <p><time datetime="2025-09">September 2025</time> – <time datetime="2025-12">December 2025</time></p>
+      </header>
+      <ul>
+        <li>Built a unified 50-state, 24-year analysis dataset, as measured by full coverage of every state-year pair, by cleaning and merging 30,000+ rows of county-level cost-of-living and state minimum-wage records in Python (pandas) and engineering a custom affordability metric that aggregated housing, food, and total living costs to the state level</li>
+        <li>Showed minimum-wage earnings covered under 20% of total living costs on average, as measured across all 50 states, by analyzing wage-vs-cost relationships through scatter and distribution visualizations and distilling 24 years of data into a presentation-ready summary for non-technical audiences</li>
+      </ul>
+    </article>
+  </section>
+
+  <section>
+    <h2>Leadership</h2>
+
+    <article>
+      <header>
+        <h3>UCSC Business Entrepreneurship Club</h3>
+        <p>Head of Logistics, Marketing, and Data</p>
+      </header>
+      <ul>
+        <li>Drove a 50% increase in event participation by running targeted Instagram outreach and analyzing poll and survey data in Excel to refine engagement strategy</li>
+        <li>Streamlined club operations by turning recurring survey results into simple dashboards that guided event planning decisions</li>
+      </ul>
+    </article>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+
+    <article>
+      <h3>Machine Learning Specialization – Stanford &amp; DeepLearning.AI (Coursera)</h3>
+      <p>Built classification, regression, and clustering models in Python (scikit-learn); covered neural networks and model evaluation</p>
+    </article>
+
+    <article>
+      <h3>IBM Data Analytics Certificate (Coursera)</h3>
+      <p>End-to-end analytics workflow using Python, SQL, R, and Tableau: querying, cleaning, and presenting real-world datasets</p>
+    </article>
+  </section>
+</body>
+</html>
